@@ -1,0 +1,40 @@
+.login{
+    background: url(../Asset/images.jpg), linear-gradient( #6DB3F2, #6DB3F2,black);
+    height: 93.4vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-blend-mode: hard-light;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+    width: 30%;
+}
+.main button{
+    background-color: dodgerblue;
+    width: 50%;
+}
+.form-control{
+    text-align: center;
+}
+.main button:hover{
+    background-color: dodgerblue;
+    width: 50%;
+}
+@media (max-width:600px) and (min-width:436px) {
+    .main{
+        width: 50%;
+    }
+}
+@media (max-width:435px) and (min-width:4px) {
+    .main{
+        width: 70%;
+    }
+}

@@ -1,0 +1,53 @@
+#container{
+    background: url(../Asset/istockphoto-1092571024-612x612.jpg), linear-gradient( #6DB3F2, #6DB3F2,black);
+    background-size: cover;
+    height: 100vh;
+}
+.section{
+    min-height: 10%;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    background-blend-mode: hard-light;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    font-size: 30px;
+    font-weight: 600;
+    visibility: collapse;
+    display: none;
+    color: #fff;
+    -webkit-text-stroke: 2px #6DB3F2;
+}
+.jug{
+    justify-content: center;
+    /* border: 1px solid ; */
+    width: 70%;
+}
+.jug .button{
+background-color:  #6DB3F2; margin: 0 0 0 20px;
+}
+.jug .button:hover{
+background-color:  #6DB3F2;
+ margin: 0 0 0 20px;
+}
+@media (max-width:950px) and (min-width:40px) {
+    .main{
+        width: 70%;
+    }
+    .jug{
+        justify-content: center;
+        border: 1px solid  red;
+        width: 100%;
+    }
+}

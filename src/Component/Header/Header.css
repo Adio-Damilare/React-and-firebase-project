@@ -1,0 +1,11 @@
+.heed{
+    position: sticky ;
+    top: 0;
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    -webkit-text-stroke:  2px dodgerblue;
+    
+}

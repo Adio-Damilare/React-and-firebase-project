@@ -1,0 +1,13 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#edit{
+    background-color: #fff;
+    width: 50px;
+}
+#delete{
+    width: 50px;
+    background-color: #fff;
+}
